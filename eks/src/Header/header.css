@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro' ,sans-serif;
+}
+form{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    min-width: 50%;
+}
+div{
+    height: 96px;
+    align-items: center;
+    min-width: 300px;
+    margin: 0 auto;
+    border-top: #81C14B 1px solid;
+    border-bottom: 1px solid #b0bec5;
+}
+button{
+    color: white;
+    background-color: #81C14B;
+    height: 29px;
+    line-height: 29px;
+    border: 0 none;
+    border-radius: 0 5px 5px 0;
+    padding: 0 8px;
+    cursor: pointer;
+}
+input{
+    font-size: 14px;
+    border: 1px solid #81C14B;
+    border-radius: 5px 0 0 5px;
+    height: 29px;
+    width: 418.28px;
+    line-height: 29px;
+    background-color: #fff;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+img{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 29px;
+    line-height:60px;
+    background-repeat: no-repeat;
+    text-indent: -119988px;
+    object-fit: contain;
+}
+.hh{
+    color:#333;
+    justify-content: space-between;
+    display: inline;
+    margin: 0 10px 0 10px;
+    right: 50px;
+    top: -25px;
+    float: right;
+}
+.hh:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.list{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+}
+.nokta{
+    display: block;
+    position: relative;
+    font-size: xx-large;
+    top: -25px;
+}
+li{
+    margin-top:4%;
+    padding-left:20%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    left: 20%;
+    position: relative;
+    margin: 0 5px;
+}
+.list li:hover{
+    text-decoration: underline 8px #81C14B;
+    color:#81C14B;
+}
+.icon{
+    display: flex;
+    float: right;
+    width: -10px;
+    padding: 0;
+    cursor: pointer;
+}
+.under{
+    width: 84%;
+    align-items: center;
+    margin: 0 100px;
+    padding: 0 100px;
+}
+.iconimg{
+    width: 25px;
+    display: flex;
+    float: right;
+    margin-top: -5px;
+    margin-right: -8px;
+}
+.pe{
+    justify-content: space-between;
+    display: flex;
+    width: 13%;
+    float: right;
+}
+.under ul li{
+    height: 0px;
+    margin-top: 18px;
+}
+

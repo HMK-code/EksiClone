@@ -1,0 +1,12 @@
+.side{
+    width: 10%;
+    position: relative;
+    padding-left: 40%;
+    top: 50%;
+    border-bottom: 0;
+    border-top: 0;
+}
+.side ul li img{
+    width: 95px;
+    height: 95px;
+}

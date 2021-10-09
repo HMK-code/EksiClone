@@ -1,0 +1,36 @@
+.main{
+    min-width: 60%;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    padding-top: 3%;
+    padding-left: 30%;
+    float: left;
+    border-bottom: 0;
+    border-top: 0;
+    min-height: 50%;
+}
+.main p{
+    padding-top: 2%;
+}
+.main h2{
+    text-transform:lowercase;
+    font-size: 2rem;
+    color: #999;
+    border-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.main h2:hover{
+    text-decoration: underline black;
+}
+.main time{
+    font-size: .7rem;
+    cursor: pointer;
+}
+.main h5{
+    font-size: .7rem;
+    color: #999;
+    cursor: pointer;
+}
